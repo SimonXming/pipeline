@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cncd/pipeline/pipeline/frontend"
+	"github.com/SimonXming/pipeline/pipeline/frontend"
 )
 
 // Option configures a compiler option.

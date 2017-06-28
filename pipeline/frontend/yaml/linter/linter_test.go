@@ -3,7 +3,7 @@ package linter
 import (
 	"testing"
 
-	"github.com/cncd/pipeline/pipeline/frontend/yaml"
+	"github.com/SimonXming/pipeline/pipeline/frontend/yaml"
 	libcompose "github.com/docker/libcompose/yaml"
 )
 

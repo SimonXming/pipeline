@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cncd/pipeline/pipeline"
-	"github.com/cncd/pipeline/pipeline/backend"
-	"github.com/cncd/pipeline/pipeline/backend/docker"
-	"github.com/cncd/pipeline/pipeline/interrupt"
-	"github.com/cncd/pipeline/pipeline/multipart"
-	"github.com/cncd/pipeline/pipeline/rpc"
+	"github.com/SimonXming/pipeline/pipeline"
+	"github.com/SimonXming/pipeline/pipeline/backend"
+	"github.com/SimonXming/pipeline/pipeline/backend/docker"
+	"github.com/SimonXming/pipeline/pipeline/interrupt"
+	"github.com/SimonXming/pipeline/pipeline/multipart"
+	"github.com/SimonXming/pipeline/pipeline/rpc"
 
 	_ "github.com/joho/godotenv/autoload"
 	"github.com/tevino/abool"
