@@ -1,5 +1,9 @@
 package rpc2
 
+import (
+	"time"
+)
+
 // Option configures a client option.
 type Option func(*Client)
 
