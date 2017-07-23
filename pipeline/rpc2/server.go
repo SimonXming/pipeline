@@ -59,6 +59,8 @@ func (s *Server) router(ctx context.Context, conn *jsonrpc2.Conn, req *jsonrpc2.
 		return s.done(ctx, req)
 	case methodExtend:
 		return s.extend(ctx, req)
+	case methodUpdate:
+		return s.update(req)
 	default:
 		return nil, errNoSuchMethod
 	}
