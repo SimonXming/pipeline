@@ -5,8 +5,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/SimonXming/pipeline/pipeline/backend"
-	"github.com/SimonXming/pipeline/pipeline/frontend/yaml"
+	"github.com/simonshyu/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/frontend/yaml"
 )
 
 func (c *Compiler) createProcess(name string, container *yaml.Container) *backend.Step {

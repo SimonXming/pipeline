@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/SimonXming/pipeline/pipeline/interrupt"
-	"github.com/SimonXming/pipeline/pipeline/rpc"
+	"github.com/simonshyu/pipeline/pipeline/interrupt"
+	"github.com/simonshyu/pipeline/pipeline/rpc"
 
 	_ "github.com/joho/godotenv/autoload"
 	"github.com/urfave/cli"

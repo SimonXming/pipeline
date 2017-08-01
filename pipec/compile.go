@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/SimonXming/pipeline/pipeline/frontend"
-	"github.com/SimonXming/pipeline/pipeline/frontend/yaml"
-	"github.com/SimonXming/pipeline/pipeline/frontend/yaml/compiler"
+	"github.com/simonshyu/pipeline/pipeline/frontend"
+	"github.com/simonshyu/pipeline/pipeline/frontend/yaml"
+	"github.com/simonshyu/pipeline/pipeline/frontend/yaml/compiler"
 
 	"github.com/urfave/cli"
 )
@@ -164,7 +164,7 @@ var compileCommand = cli.Command{
 		},
 		cli.StringFlag{
 			Name:   "system-link",
-			Value:  "https://github.com/SimonXming/pipec",
+			Value:  "https://github.com/simonshyu/pipec",
 			EnvVar: "CI_SYSTEM_LINK",
 		},
 		cli.StringFlag{

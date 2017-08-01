@@ -1,8 +1,8 @@
 package pipeline
 
 import (
-	"github.com/SimonXming/pipeline/pipeline/backend"
-	"github.com/SimonXming/pipeline/pipeline/multipart"
+	"github.com/simonshyu/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/multipart"
 )
 
 // Logger handles the process logging.

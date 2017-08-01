@@ -3,7 +3,7 @@ package rpc2
 import (
 	"context"
 
-	"github.com/SimonXming/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/backend"
 )
 
 type (

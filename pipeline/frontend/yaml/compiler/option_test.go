@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SimonXming/pipeline/pipeline/frontend"
+	"github.com/simonshyu/pipeline/pipeline/frontend"
 )
 
 func TestWithWorkspace(t *testing.T) {

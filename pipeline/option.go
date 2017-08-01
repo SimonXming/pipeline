@@ -3,7 +3,7 @@ package pipeline
 import (
 	"context"
 
-	"github.com/SimonXming/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/backend"
 )
 
 // Option configures a runtime option.

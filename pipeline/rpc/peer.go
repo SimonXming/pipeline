@@ -3,7 +3,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/SimonXming/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/backend"
 )
 
 // ErrCancelled signals the pipeine is cancelled.

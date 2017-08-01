@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SimonXming/pipeline/pipeline"
-	"github.com/SimonXming/pipeline/pipeline/backend"
-	"github.com/SimonXming/pipeline/pipeline/backend/docker"
-	"github.com/SimonXming/pipeline/pipeline/backend/kubernetes"
-	"github.com/SimonXming/pipeline/pipeline/interrupt"
-	"github.com/SimonXming/pipeline/pipeline/multipart"
+	"github.com/simonshyu/pipeline/pipeline"
+	"github.com/simonshyu/pipeline/pipeline/backend"
+	"github.com/simonshyu/pipeline/pipeline/backend/docker"
+	"github.com/simonshyu/pipeline/pipeline/backend/kubernetes"
+	"github.com/simonshyu/pipeline/pipeline/interrupt"
+	"github.com/simonshyu/pipeline/pipeline/multipart"
 	"github.com/urfave/cli"
 )
 
